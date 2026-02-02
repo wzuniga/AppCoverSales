@@ -19,7 +19,7 @@ function App() {
                             <div className="row">
                                 <div className="col-md-12">
                                     <div className="section-heading section-heading-1">
-                                        <h2 className="section-heading__title">Welcome to JOBBY</h2>
+                                        <h2 className="section-heading__title">Bienvenido a CoPapel</h2>
                                         <div className="section-heading__line">
                                             <img src="images/icon/line-blue.png" alt="Line" />
                                         </div>
@@ -245,7 +245,7 @@ function App() {
                             <div className="row">
                                 <div className="col-md-12">
                                     <div className="learn-more text-center m-t-60">
-                                        <a className="au-btn au-btn--pink" href="index1.html#">learn more
+                                        <a className="au-btn au-btn--pink" href="index1.html#">Conoce más
                                             <i className="zmdi zmdi-chevron-right"></i>
                                             <i className="zmdi zmdi-chevron-right"></i>
                                         </a>

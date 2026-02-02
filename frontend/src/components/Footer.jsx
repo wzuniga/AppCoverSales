@@ -93,6 +93,13 @@ const Footer = () => {
                 </div>
             </section>
 
+            {/* conservar comentario */}
+            {/* <div id="to-top" style={{ display: showScroll ? 'block' : 'none', cursor: 'pointer' }} onClick={scrollToTop}>
+                <a>
+                    <img src="images/icon/to-top.png" alt="To Top" />
+                </a>
+            </div> */}
+
             <div id="to-top" style={{ display: showScroll ? 'block' : 'none', cursor: 'pointer' }} onClick={scrollToTop}>
                 <a>
                     <img src="images/icon/to-top.png" alt="To Top" />

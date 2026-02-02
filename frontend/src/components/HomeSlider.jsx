@@ -107,7 +107,7 @@ const HomeSlider = () => {
                         <a className="tp-caption tp-resizeme" href="index1.html#" target="_self" data-frames="[{&quot;delay&quot;:3200,&quot;speed&quot;:1000,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;x:-50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                             data-x="[center,center,center,center,center]" data-y="[center,center,center,center,center]" data-hoffset="[105, 5, -20, 10, 10]" data-voffset="[162, 120, 120, 120, 165]" data-width="['auto']" data-height="[&quot;auto&quot;]"
                             data-responsive_offset="on" data-responsive="off" data-whitespace="[nowrap, nowrap, nowrap, nowrap, nowrap]">
-                            <span className="rev-btn-1">Learn more
+                            <span className="rev-btn-1">Conoce más
                                 <span className="arrow" data-paddingleft="10">
                                     <i className="zmdi zmdi-chevron-right"></i>
                                     <i className="zmdi zmdi-chevron-right"></i>
@@ -127,7 +127,7 @@ const HomeSlider = () => {
                         <a className="tp-caption tp-resizeme" href="index1.html#" target="_self" data-frames="[{&quot;delay&quot;:2300,&quot;speed&quot;:2000,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power4.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                             data-x="[right,right,center,center,center]" data-y="[bottom]" data-hoffset="[110, 110, -10, 10, 10]" data-voffset="[152, 152, 250, 200, 230]" data-width="['auto']" data-height="[&quot;auto&quot;]" data-responsive_offset="on"
                             data-responsive="off" data-whitespace="[nowrap, nowrap, nowrap, nowrap, nowrap]">
-                            <span className="rev-btn-1">Learn more
+                            <span className="rev-btn-1">Conoce más
                                 <span className="arrow" data-paddingleft="10">
                                     <i className="zmdi zmdi-chevron-right"></i>
                                     <i className="zmdi zmdi-chevron-right"></i>

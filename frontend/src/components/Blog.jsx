@@ -130,7 +130,7 @@ const Blog = () => {
                             <p className="blog-intro__text">
                                 Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat et voluptates repudiandae sint et molestiae non recusandae.
                             </p>
-                            <a className="au-btn au-btn--blue" href="index1.html#">learn more
+                            <a className="au-btn au-btn--blue" href="index1.html#">Conoce más
                                 <i className="zmdi zmdi-chevron-right"></i>
                                 <i className="zmdi zmdi-chevron-right"></i>
                             </a>
