@@ -1,0 +1,52 @@
+# General
+node_modules/
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.DS_Store
+
+# District/Build
+dist/
+dist-ssr
+build/
+out/
+.next/
+.nuxt/
+.vuepress/dist
+
+# Environment variables
+.env
+.env.test
+.env.production
+.env.local
+.env.*.local
+
+# Database (Prisma/SQLite)
+*.db
+*.db-journal
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional npm cache
+.npm
+.eslintcache
+
+# Coverage
+coverage/
+.nyc_output/
+lib-cov/
