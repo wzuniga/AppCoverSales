@@ -90,7 +90,7 @@ const HomeSlider = () => {
 
     return (
         <div className="rev_slider_wrapper">
-            <div className="rev_slider fullwidthabanner js-rev" data-version="5.4.4" style={{ display: "none" }} data-rev-height="800" data-rev-layout="fullwidth" data-rev-stylearrow="au-rev-arrow-1" data-rev-bullets="false">
+            <div className="rev_slider fullscreenbanner js-rev" data-version="5.4.4" style={{ display: "none" }} data-rev-height="800" data-rev-layout="fullscreen" data-rev-stylearrow="au-rev-arrow-1" data-rev-bullets="false">
                 <ul>
                     <li className="rev-item rev-item-1" data-transition="fade">
                         <img className="rev-slidebg" src="images/slide-01.jpg" alt="Master Slider 01" />
@@ -122,7 +122,7 @@ const HomeSlider = () => {
                             <img src="images/slide-item-01.png" alt="Slide Img" />
                         </div>
                         <div className="tp-caption tp-resizeme rev-text-3" data-frames="[{&quot;delay&quot;:500,&quot;split&quot;:&quot;chars&quot;,&quot;splitdelay&quot;:0.05,&quot;speed&quot;:2000,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rZ:35deg;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power4.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
-                            data-x="[right, right, center, center, center]" data-y="[center]" data-hoffset="[-80, -80, 10, 0, 0]" data-voffset="[10, 10, -30, 0, -90]" data-paddingleft="[0, 0, 0, 0, 15]" data-paddingright="[0, 0, 0, 0, 15]" data-width="[560 , 560, 850 , 450, 570]"
+                            data-x="[right, center, center, center, center]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 0]" data-voffset="[10, 10, -30, 0, -90]" data-paddingleft="[0, 0, 0, 0, 15]" data-paddingright="[0, 0, 0, 0, 15]" data-width="[560 , 560, 850 , 450, 570]"
                             data-height="[&quot;auto&quot;]" data-fontsize="[70, 70, 54, 54, 44]" data-lineheight="[85, 85, 64, 62, 50]" data-whitespace="normal" data-textalign="center" data-color="#333" data-fontweight="400">Que podemos poner aqui?</div>
                         <a className="tp-caption tp-resizeme" href="index1.html#" target="_self" data-frames="[{&quot;delay&quot;:2300,&quot;speed&quot;:2000,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power4.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                             data-x="[right,right,center,center,center]" data-y="[bottom]" data-hoffset="[110, 110, -10, 10, 10]" data-voffset="[152, 152, 250, 200, 230]" data-width="['auto']" data-height="[&quot;auto&quot;]" data-responsive_offset="on"

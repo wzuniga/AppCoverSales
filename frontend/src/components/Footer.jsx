@@ -100,9 +100,9 @@ const Footer = () => {
                 </a>
             </div> */}
 
-            <div id="to-top" style={{ display: showScroll ? 'block' : 'none', cursor: 'pointer' }} onClick={scrollToTop}>
-                <a>
-                    <img src="images/icon/to-top.png" alt="To Top" />
+            <div id="to-top" style={{ display: 'block', cursor: 'pointer' }}>
+                <a href="https://wa.me/51960580522?text=Hola%20quiero%20informacion%20sobre%20las%20caratulas%2C%20vengo%20de%20la%20WEB" target="_blank" rel="noopener noreferrer">
+                    <img src="images/icon/whatsapp.png" alt="WhatsApp" style={{ width: '52px', height: '52px' }} />
                 </a>
             </div>
         </>
