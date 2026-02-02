@@ -9,6 +9,12 @@ function App() {
     return (
         <>
             <div className="page-wrapper">
+                {/* INTRO SCREEN */}
+                <div className="intro-screen">
+                    <img src="images/landing/slide-0.png" alt="Welcome Intro" />
+                </div>
+                {/* END INTRO SCREEN */}
+
                 <Header />
                 <main id="main">
                     <HomeSlider />
@@ -19,7 +25,7 @@ function App() {
                             <div className="row">
                                 <div className="col-md-12">
                                     <div className="section-heading section-heading-1">
-                                        <h2 className="section-heading__title">Bienvenido a CoPapel</h2>
+                                        <h2 className="section-heading__title">Nuestros Productos</h2>
                                         <div className="section-heading__line">
                                             <img src="images/icon/line-blue.png" alt="Line" />
                                         </div>

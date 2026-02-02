@@ -2,6 +2,22 @@ import React, { useState } from 'react';
 
 const Header = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const [isVisible, setIsVisible] = useState(false);
+
+    React.useEffect(() => {
+        const handleScroll = () => {
+            // Show menu when scrolled past 100% of viewport height (approx intro screen)
+            // Using window.innerHeight to detect when user scrolled past the first screen
+            if (window.scrollY > window.innerHeight - 100) {
+                setIsVisible(true);
+            } else {
+                setIsVisible(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
 
     const toggleMobileMenu = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -16,7 +32,7 @@ const Header = () => {
     };
 
     return (
-        <header id="header">
+        <header id="header" className={`header-fixed-effect ${isVisible ? 'header-visible' : 'header-hidden'}`}>
             {/* <section className="top-contact">
                 <div className="container">
                     <div className="top-contact-inner">
