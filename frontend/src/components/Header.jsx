@@ -32,7 +32,8 @@ const Header = () => {
                         <div className="header__content">
                             <div className="logo">
                                 <a href="index1.html#">
-                                    <img src="images/icon/logo.png" alt="Jobby" />
+                                    {/* <img src="images/icon/logo.png" alt="Jobby" />  */}
+                                    <img src="images/icon/copapel-logo-1.png" alt="Jobby" className="logo-header" />
                                 </a>
                             </div>
                             <nav className="header-navbar">
@@ -211,7 +212,8 @@ const Header = () => {
                 <div className="header-mobile__bar">
                     <div className="container-fluid clearfix">
                         <a className="logo" href="index1.html">
-                            <img src="images/icon/logo.png" alt="Jooby" />
+                            {/* <img src="images/icon/logo.png" alt="Jooby" /> */}
+                            <img src="images/icon/copapel-logo-1.png" alt="Jobby" className="logo-header-mobile" />
                         </a>
                         <button
                             className={`hamburger hamburger--slider float-right ${isMobileMenuOpen ? 'is-active' : ''}`}

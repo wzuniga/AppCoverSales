@@ -334,7 +334,7 @@ fieldset {
     padding: 0;
     line-height: 1;
     vertical-align: top;
-    background: #fff
+    background: #f6f4f0
 }
 
 .hamburger:focus {
@@ -8754,11 +8754,12 @@ button {
 }
 
 .bg-blue {
-    background: #7dd0f8
+    /* background: #7dd0f8 */
+    background: #aad59e
 }
 
 .bg-blue-2 {
-    background: #d8f3ff
+    background: #bde4b3
 }
 
 .bg-f7 {
@@ -8766,11 +8767,11 @@ button {
 }
 
 .bg-pink {
-    background: #ff97a4
+    background: #f6c3ae
 }
 
 .bg-pink-2 {
-    background: #ffadad
+    background: rgb(235, 182, 182)
 }
 
 .bg-blue-green {

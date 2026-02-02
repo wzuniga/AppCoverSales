@@ -1,0 +1,16 @@
+/* Custom Styles */
+.logo-header {
+    height: 80px;
+}
+
+.logo-header-mobile {
+    height: 35px;
+}
+
+.header {
+    background-color: #f6f4f0;
+}
+
+.header-mobile {
+    background-color: #f6f4f0;
+}
