@@ -6,12 +6,50 @@ import Activities from './components/Activities';
 import Blog from './components/Blog';
 
 function App() {
+    React.useEffect(() => {
+        // Custom smooth scroll function with easing
+        const smoothScroll = (target, duration) => {
+            const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
+            const startPosition = window.pageYOffset;
+            const distance = targetPosition - startPosition;
+            let startTime = null;
+
+            const animation = (currentTime) => {
+                if (startTime === null) startTime = currentTime;
+                const timeElapsed = currentTime - startTime;
+                const run = ease(timeElapsed, startPosition, distance, duration);
+                window.scrollTo(0, run);
+                if (timeElapsed < duration) requestAnimationFrame(animation);
+            };
+
+            // EaseInOutQuad
+            const ease = (t, b, c, d) => {
+                t /= d / 2;
+                if (t < 1) return c / 2 * t * t + b;
+                t--;
+                return -c / 2 * (t * (t - 2) - 1) + b;
+            };
+
+            requestAnimationFrame(animation);
+        };
+
+        const timer = setTimeout(() => {
+            const mainSection = document.getElementById('main');
+            if (mainSection) {
+                // Scroll duration: 2000ms (2 seconds) for smoother effect
+                smoothScroll(mainSection, 2000);
+            }
+        }, 5000); // Wait 5 seconds
+
+        return () => clearTimeout(timer);
+    }, []);
+
     return (
         <>
             <div className="page-wrapper">
                 {/* INTRO SCREEN */}
                 <div className="intro-screen">
-                    <img src="images/landing/slide-0.png" alt="Welcome Intro" />
+                    <img src="images/landing/slide-1.png" alt="Welcome Intro" />
                 </div>
                 {/* END INTRO SCREEN */}
 
